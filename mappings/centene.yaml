@@ -1,0 +1,28 @@
+carrier_name: Centene
+sheet_name: Detail
+date_format: "%m/%Y"
+fields:
+  commission_period:
+    source: Pay Period
+  recipient_name:
+    source: Writing Broker Name
+  carrier:
+    type: fixed
+    value: Centene
+  recipient_type:
+    type: fixed
+    value: Broker
+  commission_amount:
+    source: Payment Amount
+  member_id:
+    source: Centene ID
+  member_name:
+    source: Member Name
+  policy_effective_date:
+    source: Effective Date
+  policy_termination_date:
+    source: Member Term Date
+  enrollment_type:
+    source: Plan Type
+  product_plan_name:
+    source: Plan Name

@@ -1,0 +1,30 @@
+carrier_name: Emblem
+sheet_name: Detail
+date_format: "%m/%Y"
+fields:
+  commission_period:
+    source: Effective Date
+    type: date
+    format: "%Y-%m-%d"
+  carrier:
+    type: fixed
+    value: Emblem
+  recipient_name:
+    source: Rep Name
+  recipient_type:
+    type: fixed
+    value: Agent
+  commission_amount:
+    source: Payment
+  member_id:
+    source: Member ID
+  member_name:
+    source: [Member First Name, Member Last Name]
+  policy_effective_date:
+    source: Effective Date
+  policy_termination_date:
+    source: Term Date
+  enrollment_type:
+    source: Plan Group
+  product_plan_name:
+    source: Plan

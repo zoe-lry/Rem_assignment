@@ -1,0 +1,27 @@
+carrier_name: Healthfirst
+sheet_name: HFStmtCommAtt
+date_format: '%m/%Y'
+fields:
+  commission_period:
+    source: Period
+  carrier:
+    type: fixed
+    value: Healthfirst
+  recipient_name:
+    source: Producer Name
+  recipient_type:
+    source: Producer Type
+  commission_amount:
+    source: Amount
+  member_id:
+    source: Member ID
+  member_name:
+    source: Member Name
+  policy_effective_date:
+    source: Member Effective Date
+  policy_termination_date:
+    source: Disenrolled Date
+  enrollment_type:
+    source: Enrollment Type
+  product_plan_name:
+    source: Product
